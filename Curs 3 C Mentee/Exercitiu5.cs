@@ -15,7 +15,7 @@ namespace Curs_3_C_Mentee
             char[] charArray = s1.ToCharArray();
             for (int i = 0; i < charArray.Length; i++) {
 
-                if (i % 2 != 0)
+                if (i % 2 == 0)
                 {
 
                     charArray[i] = char.ToUpper(charArray[i]);
