@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Curs_3_C_Mentee</RootNamespace>
-    <StartupObject>Curs_3_C_Mentee.Exercitiu5</StartupObject>
+    <StartupObject>Curs_3_C_Mentee.Exercitiu6</StartupObject>
   </PropertyGroup>
 
 </Project>

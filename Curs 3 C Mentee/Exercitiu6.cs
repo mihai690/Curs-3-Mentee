@@ -16,15 +16,19 @@ namespace Curs_3_C_Mentee
                 Console.WriteLine("Vectorul initial: " + numereIntregi[i]);
             }
 
-            double valoareDouble = 1.5;
+            double[] numereDouble = new Double[3];
 
-            for (int i = 0; i < numereIntregi.Length; i++) {
-                numereIntregi[i] = numereIntregi[i] + (int)valoareDouble;
+            numereDouble[1] = 2.5;
+
+            for (int i = 0; i < numereDouble.Length; i++) {
+                Console.WriteLine("Vectorul double: " + numereDouble[i]);
             }
 
-            for (int i = 0; i < numereIntregi.Length; i++)
+            for (int i = 0; i < numereIntregi.Length && i < numereDouble.Length; i++)
             {
-                Console.WriteLine("Vectorul dupa adunare: " + numereIntregi[i]);
+                numereDouble[i] = numereDouble[i] + numereIntregi[i];
+
+                Console.WriteLine("Vectorul dupa adunare: " + numereDouble[i]);
             }
 
         }
